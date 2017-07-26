@@ -1,0 +1,19 @@
+{
+  "author": "Arjun Shetty <ashetty@ebay.com>",
+  "dependencies": {
+    "chromedriver": "^2.21.x",
+    "grunt-nightwatchjs": "^1.3.x",
+    "nightwatch": "^0.9.x",
+    "nightwatch-html-reporter": "^1.0.x",
+    "selenium-server": "2.53.0"
+  },
+  "engines": {
+    "node": ">=0.10.31"
+  },
+  "devDependencies": {
+    "coveralls": "^2.13.1",
+    "istanbul": "^0.4.5",
+    "istanbul-coveralls": "^1.0.3",
+    "nyc": "^11.0.3"
+  }
+}

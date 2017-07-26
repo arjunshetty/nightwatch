@@ -1,0 +1,55 @@
+13:35:55.073 INFO - Launching a standalone Selenium Server
+13:35:55.248 INFO - Java: Oracle Corporation 25.31-b07
+13:35:55.248 INFO - OS: Windows 7 6.1 x86
+13:35:55.260 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+13:35:55.327 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:35:55.327 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+13:35:55.335 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform VISTA
+13:35:55.336 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+13:35:55.336 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+13:35:55.532 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:9000/wd/hub
+13:35:55.532 INFO - Selenium Server is up and running
+13:35:56.004 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Featurename\awaitingshipment Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+13:35:56.026 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Featurename\awaitingshipment Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 4590
+Only local connections are allowed.
+13:35:58.331 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Featurename\awaitingshipment Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+13:35:58.348 INFO - Executing: [get: https://signin.qa.ebay.com/ws/eBayISAPI.dll?SignIn])
+13:36:04.464 INFO - Done: [get: https://signin.qa.ebay.com/ws/eBayISAPI.dll?SignIn]
+13:36:06.488 INFO - Executing: [find elements: By.cssSelector: span>input[placeholder="Email, phone or username"]])
+13:36:06.548 INFO - Done: [find elements: By.cssSelector: span>input[placeholder="Email, phone or username"]]
+13:36:06.555 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (5a7c7d21645e65c9568bb7349fb88c8c)] -> css selector: span>input[placeholder="Email, phone or username"]]])
+13:36:06.588 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (5a7c7d21645e65c9568bb7349fb88c8c)] -> css selector: span>input[placeholder="Email, phone or username"]]]
+13:36:06.596 INFO - Executing: [find element: By.cssSelector: span>input[placeholder="Email, phone or username"]])
+13:36:06.626 INFO - Done: [find element: By.cssSelector: span>input[placeholder="Email, phone or username"]]
+13:36:06.631 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (5a7c7d21645e65c9568bb7349fb88c8c)] -> css selector: span>input[placeholder="Email, phone or username"]]])
+13:36:06.647 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (5a7c7d21645e65c9568bb7349fb88c8c)] -> css selector: span>input[placeholder="Email, phone or username"]]]
+13:36:06.652 INFO - Executing: [find element: By.cssSelector: span>input[placeholder="Email, phone or username"]])
+13:36:06.668 INFO - Done: [find element: By.cssSelector: span>input[placeholder="Email, phone or username"]]
+13:36:06.674 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on XP (5a7c7d21645e65c9568bb7349fb88c8c)] -> css selector: span>input[placeholder="Email, phone or username"]], [a, r, j, u, n, _, o, r, d, _, s, e, l, l, e, r, 1]])
+13:36:06.804 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on XP (5a7c7d21645e65c9568bb7349fb88c8c)] -> css selector: span>input[placeholder="Email, phone or username"]], [a, r, j, u, n, _, o, r, d, _, s, e, l, l, e, r, 1]]
+13:36:06.810 INFO - Executing: [find element: By.cssSelector: span>input[placeholder="Password"]])
+13:36:06.857 INFO - Done: [find element: By.cssSelector: span>input[placeholder="Password"]]
+13:36:06.863 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (5a7c7d21645e65c9568bb7349fb88c8c)] -> css selector: span>input[placeholder="Password"]], [p, a, s, s, w, o, r, d]])
+13:36:06.945 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (5a7c7d21645e65c9568bb7349fb88c8c)] -> css selector: span>input[placeholder="Password"]], [p, a, s, s, w, o, r, d]]
+13:36:06.954 INFO - Executing: [find elements: By.cssSelector: input[type="submit"]])
+13:36:06.982 INFO - Done: [find elements: By.cssSelector: input[type="submit"]]
+13:36:06.987 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (5a7c7d21645e65c9568bb7349fb88c8c)] -> css selector: input[type="submit"]]])
+13:36:07.026 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (5a7c7d21645e65c9568bb7349fb88c8c)] -> css selector: input[type="submit"]]]
+13:36:07.032 INFO - Executing: [find element: By.cssSelector: input[type="submit"]])
+13:36:07.062 INFO - Done: [find element: By.cssSelector: input[type="submit"]]
+13:36:07.069 INFO - Executing: [click: 2 [[ChromeDriver: chrome on XP (5a7c7d21645e65c9568bb7349fb88c8c)] -> css selector: input[type="submit"]]])
+13:36:15.271 INFO - Done: [click: 2 [[ChromeDriver: chrome on XP (5a7c7d21645e65c9568bb7349fb88c8c)] -> css selector: input[type="submit"]]]
+13:36:20.306 INFO - Executing: [take screenshot])
+13:36:20.858 INFO - Done: [take screenshot]
+13:36:21.013 INFO - Executing: [get: https://www.qa.ebay.com/sh/ord])
+13:36:32.721 INFO - Done: [get: https://www.qa.ebay.com/sh/ord]
+13:36:32.731 INFO - Executing: [find element: By.cssSelector: .caHdr-hdr])
+13:36:32.770 INFO - Done: [find element: By.cssSelector: .caHdr-hdr]
+13:36:32.775 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on XP (5a7c7d21645e65c9568bb7349fb88c8c)] -> css selector: .caHdr-hdr]])
+13:36:32.811 INFO - Done: [get text: 3 [[ChromeDriver: chrome on XP (5a7c7d21645e65c9568bb7349fb88c8c)] -> css selector: .caHdr-hdr]]
+13:36:32.816 INFO - Executing: [take screenshot])
+13:36:33.470 INFO - Done: [take screenshot]
+13:36:33.499 INFO - Executing: [delete session: eac7bdfc-3b5d-4864-98ff-f1173fa01be4])
+13:36:34.998 INFO - Done: [delete session: eac7bdfc-3b5d-4864-98ff-f1173fa01be4]
