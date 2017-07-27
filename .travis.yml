@@ -5,4 +5,4 @@ script:
     - npm install istanbul
     - ./node_modules/.bin/istanbul cover samplegoogletest.js
 after_success:
-    - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+    - cat ./coverage/lcov.info | coveralls
