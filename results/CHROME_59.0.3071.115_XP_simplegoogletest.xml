@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="simplegoogletest"
+    errors="0" failures="1" hostname="" id="" package="simplegoogletest" skipped="0"
+    tests="1" time="6.791" timestamp="Thu, 27 Jul 2017 22:08:58 GMT">
+  
+    <testcase name="Demo test Google" classname="simplegoogletest" time="6.791" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;button[name=btnG]&gt; to be visible for 1000 milliseconds.">    at Object.Demo test Google (C:\users\ashetty\nightwatch_playground\simplegoogletest.js:7:8)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

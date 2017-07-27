@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
-            tests="1">
+            failures="3"
+            tests="3">
 
   <testsuite name="samplegoogletest"
-    errors="0" failures="0" hostname="" id="" package="samplegoogletest" skipped="0"
-    tests="1" time="8.139" timestamp="Mon, 24 Jul 2017 23:46:03 GMT">
+    errors="0" failures="3" hostname="" id="" package="samplegoogletest" skipped="0"
+    tests="3" time="35.20" timestamp="Thu, 27 Jul 2017 23:05:26 GMT">
   
-    <testcase name="Demo test Google" classname="samplegoogletest" time="8.139" assertions="3">
+    <testcase name="Demo test Google" classname="samplegoogletest" time="11.67" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;button[name=btnG]&gt; to be visible for 3000 milliseconds.">    at Object.Demo test Google (C:\users\ashetty\nightwatch_playground\samplegoogletest.js:7:8)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
 
     
+    </testcase>
+  
+    <testcase name="Search google keyword" classname="samplegoogletest" time="10.26" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;button[name=btnG]&gt; to be visible for 3000 milliseconds.">    at Object.Search google keyword (C:\users\ashetty\nightwatch_playground\samplegoogletest.js:18:8)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
 
     
+    </testcase>
+  
+    <testcase name="Search another keyword" classname="samplegoogletest" time="13.27" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;button[name=btnG]&gt; to be visible for 3000 milliseconds.">    at Object.Search another keyword (C:\users\ashetty\nightwatch_playground\samplegoogletest.js:29:8)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
 
     
     </testcase>
