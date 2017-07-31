@@ -1,11 +1,20 @@
+/**
+ * Sample automated test scenario for Nightwatch.js
+ *
+ * > it navigates to google.com and searches for nightwatch,
+ *   verifying if the term 'The Night Watch' exists in the search results
+ */
+
 module.exports = {
-  'Demo test Google' : function (browser) {
-    browser
-      .url('http://www.google.com')
-      .waitForElementVisible('body', 1000)
-      .setValue('input[type=text]', 'nightwatch')
-      .waitForElementVisible('button[name=btnG]', 1000)
-      .click('button[name=btnG]')
+  'demo test google' : function (client) {
+    client
+      .url('http://google.com')
+      .waitForElementPresent('body', 1000);
+  },
+
+  'part two' : function(client) {
+    client
+      .setValue('input[type=text]', ['nightwatch', client.Keys.ENTER])
       .pause(1000)
       .assert.containsText('#main', 'Night Watch')
       .end();

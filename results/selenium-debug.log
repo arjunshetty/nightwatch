@@ -1,117 +1,50 @@
-16:05:25.608 INFO - Launching a standalone Selenium Server
-16:05:25.780 INFO - Java: Oracle Corporation 25.31-b07
-16:05:25.780 INFO - OS: Windows 7 6.1 x86
-16:05:25.792 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-16:05:25.859 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-16:05:25.859 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-16:05:25.867 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+10:28:15.981 INFO - Launching a standalone Selenium Server
+10:28:16.141 INFO - Java: Oracle Corporation 25.31-b07
+10:28:16.142 INFO - OS: Windows 7 6.1 x86
+10:28:16.153 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+10:28:16.224 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+10:28:16.224 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+10:28:16.233 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
 registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform VISTA
-16:05:25.868 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-16:05:25.868 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-16:05:26.079 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:9000/wd/hub
-16:05:26.079 INFO - Selenium Server is up and running
-16:05:26.509 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Samplegoogletest, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-16:05:26.530 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Samplegoogletest, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 46778
+10:28:16.234 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+10:28:16.234 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+10:28:16.433 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:9000/wd/hub
+10:28:16.433 INFO - Selenium Server is up and running
+10:28:16.897 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Samplegoogletest, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+10:28:16.919 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Samplegoogletest, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 34800
 Only local connections are allowed.
-16:05:28.855 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Samplegoogletest, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-16:05:28.873 INFO - Executing: [get: http://www.google.com])
-16:05:32.841 INFO - Done: [get: http://www.google.com]
-16:05:32.865 INFO - Executing: [find elements: By.cssSelector: body])
-16:05:32.925 INFO - Done: [find elements: By.cssSelector: body]
-16:05:32.931 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (0af25d330b670561544f218163b6efdf)] -> css selector: body]])
-16:05:32.966 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (0af25d330b670561544f218163b6efdf)] -> css selector: body]]
-16:05:32.973 INFO - Executing: [find element: By.cssSelector: input[type=text]])
-16:05:33.002 INFO - Done: [find element: By.cssSelector: input[type=text]]
-16:05:33.009 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (0af25d330b670561544f218163b6efdf)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]])
-16:05:33.126 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (0af25d330b670561544f218163b6efdf)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]]
-16:05:33.136 INFO - Executing: [find elements: By.cssSelector: button[name=btnG]])
-16:05:33.178 INFO - Done: [find elements: By.cssSelector: button[name=btnG]]
-16:05:33.183 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (0af25d330b670561544f218163b6efdf)] -> css selector: button[name=btnG]]])
-16:05:33.208 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (0af25d330b670561544f218163b6efdf)] -> css selector: button[name=btnG]]]
-16:05:33.716 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (0af25d330b670561544f218163b6efdf)] -> css selector: button[name=btnG]]])
-16:05:33.729 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (0af25d330b670561544f218163b6efdf)] -> css selector: button[name=btnG]]]
-16:05:34.235 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (0af25d330b670561544f218163b6efdf)] -> css selector: button[name=btnG]]])
-16:05:34.249 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (0af25d330b670561544f218163b6efdf)] -> css selector: button[name=btnG]]]
-16:05:34.755 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (0af25d330b670561544f218163b6efdf)] -> css selector: button[name=btnG]]])
-16:05:34.767 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (0af25d330b670561544f218163b6efdf)] -> css selector: button[name=btnG]]]
-16:05:35.273 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (0af25d330b670561544f218163b6efdf)] -> css selector: button[name=btnG]]])
-16:05:35.285 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (0af25d330b670561544f218163b6efdf)] -> css selector: button[name=btnG]]]
-16:05:35.790 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (0af25d330b670561544f218163b6efdf)] -> css selector: button[name=btnG]]])
-16:05:35.803 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (0af25d330b670561544f218163b6efdf)] -> css selector: button[name=btnG]]]
-16:05:36.311 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (0af25d330b670561544f218163b6efdf)] -> css selector: button[name=btnG]]])
-16:05:36.324 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (0af25d330b670561544f218163b6efdf)] -> css selector: button[name=btnG]]]
-16:05:36.333 INFO - Executing: [take screenshot])
-16:05:36.636 INFO - Done: [take screenshot]
-16:05:36.650 INFO - Executing: [delete session: bf239a4c-5bf2-43b9-b62b-eae2e97453fc])
-16:05:37.981 INFO - Done: [delete session: bf239a4c-5bf2-43b9-b62b-eae2e97453fc]
-16:05:37.995 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Samplegoogletest, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-16:05:37.997 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Samplegoogletest, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 9237
+10:28:20.349 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Samplegoogletest, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+10:28:20.378 INFO - Executing: [get: http://www.google.com])
+10:28:24.231 INFO - Done: [get: http://www.google.com]
+10:28:24.243 INFO - Executing: [find elements: By.cssSelector: body])
+10:28:24.292 INFO - Done: [find elements: By.cssSelector: body]
+10:28:24.298 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (06c36e60c9a723aaac5630864db5c8a9)] -> css selector: body]])
+10:28:24.337 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (06c36e60c9a723aaac5630864db5c8a9)] -> css selector: body]]
+10:28:24.345 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+10:28:24.378 INFO - Done: [find element: By.cssSelector: input[type=text]]
+10:28:24.386 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (06c36e60c9a723aaac5630864db5c8a9)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h, ?]])
+10:28:26.221 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (06c36e60c9a723aaac5630864db5c8a9)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h, ?]]
+10:28:27.233 INFO - Executing: [find element: By.cssSelector: #main])
+10:28:27.264 INFO - Done: [find element: By.cssSelector: #main]
+10:28:27.269 INFO - Executing: [get text: 2 [[ChromeDriver: chrome on XP (06c36e60c9a723aaac5630864db5c8a9)] -> css selector: #main]])
+10:28:27.724 INFO - Done: [get text: 2 [[ChromeDriver: chrome on XP (06c36e60c9a723aaac5630864db5c8a9)] -> css selector: #main]]
+10:28:27.732 INFO - Executing: [delete session: 0b524d94-0529-4bf8-ab0c-e3d32ee2f717])
+10:28:29.043 INFO - Done: [delete session: 0b524d94-0529-4bf8-ab0c-e3d32ee2f717]
+10:28:29.056 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Samplegoogletest, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+10:28:29.059 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Samplegoogletest, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 19472
 Only local connections are allowed.
-16:05:39.912 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Samplegoogletest, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-16:05:39.918 INFO - Executing: [get: http://www.google.com])
-16:05:43.489 INFO - Done: [get: http://www.google.com]
-16:05:43.494 INFO - Executing: [find elements: By.cssSelector: body])
-16:05:43.527 INFO - Done: [find elements: By.cssSelector: body]
-16:05:43.533 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (dd3f04b59f80879ed6f7dee5e7011caa)] -> css selector: body]])
-16:05:43.559 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (dd3f04b59f80879ed6f7dee5e7011caa)] -> css selector: body]]
-16:05:43.566 INFO - Executing: [find element: By.cssSelector: input[type=text]])
-16:05:43.601 INFO - Done: [find element: By.cssSelector: input[type=text]]
-16:05:43.608 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (dd3f04b59f80879ed6f7dee5e7011caa)] -> css selector: input[type=text]], [e, b, a, y]])
-16:05:43.696 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (dd3f04b59f80879ed6f7dee5e7011caa)] -> css selector: input[type=text]], [e, b, a, y]]
-16:05:43.702 INFO - Executing: [find elements: By.cssSelector: button[name=btnG]])
-16:05:43.730 INFO - Done: [find elements: By.cssSelector: button[name=btnG]]
-16:05:43.736 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (dd3f04b59f80879ed6f7dee5e7011caa)] -> css selector: button[name=btnG]]])
-16:05:43.761 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (dd3f04b59f80879ed6f7dee5e7011caa)] -> css selector: button[name=btnG]]]
-16:05:44.267 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (dd3f04b59f80879ed6f7dee5e7011caa)] -> css selector: button[name=btnG]]])
-16:05:44.280 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (dd3f04b59f80879ed6f7dee5e7011caa)] -> css selector: button[name=btnG]]]
-16:05:44.785 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (dd3f04b59f80879ed6f7dee5e7011caa)] -> css selector: button[name=btnG]]])
-16:05:44.798 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (dd3f04b59f80879ed6f7dee5e7011caa)] -> css selector: button[name=btnG]]]
-16:05:45.303 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (dd3f04b59f80879ed6f7dee5e7011caa)] -> css selector: button[name=btnG]]])
-16:05:45.317 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (dd3f04b59f80879ed6f7dee5e7011caa)] -> css selector: button[name=btnG]]]
-16:05:45.822 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (dd3f04b59f80879ed6f7dee5e7011caa)] -> css selector: button[name=btnG]]])
-16:05:45.835 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (dd3f04b59f80879ed6f7dee5e7011caa)] -> css selector: button[name=btnG]]]
-16:05:46.340 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (dd3f04b59f80879ed6f7dee5e7011caa)] -> css selector: button[name=btnG]]])
-16:05:46.354 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (dd3f04b59f80879ed6f7dee5e7011caa)] -> css selector: button[name=btnG]]]
-16:05:46.861 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (dd3f04b59f80879ed6f7dee5e7011caa)] -> css selector: button[name=btnG]]])
-16:05:46.877 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (dd3f04b59f80879ed6f7dee5e7011caa)] -> css selector: button[name=btnG]]]
-16:05:46.883 INFO - Executing: [take screenshot])
-16:05:47.195 INFO - Done: [take screenshot]
-16:05:47.210 INFO - Executing: [delete session: b253f341-4a01-4c58-903d-a27d329299ef])
-16:05:48.257 INFO - Done: [delete session: b253f341-4a01-4c58-903d-a27d329299ef]
-16:05:48.266 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Samplegoogletest, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-16:05:48.268 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Samplegoogletest, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 48973
-Only local connections are allowed.
-16:05:50.168 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Samplegoogletest, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-16:05:50.176 INFO - Executing: [get: http://www.google.com])
-16:05:56.455 INFO - Done: [get: http://www.google.com]
-16:05:56.483 INFO - Executing: [find elements: By.cssSelector: body])
-16:05:56.528 INFO - Done: [find elements: By.cssSelector: body]
-16:05:56.542 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (37a280a3c9974ef586a46bf60c34a8df)] -> css selector: body]])
-16:05:56.580 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (37a280a3c9974ef586a46bf60c34a8df)] -> css selector: body]]
-16:05:56.585 INFO - Executing: [find element: By.cssSelector: input[type=text]])
-16:05:56.617 INFO - Done: [find element: By.cssSelector: input[type=text]]
-16:05:56.622 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (37a280a3c9974ef586a46bf60c34a8df)] -> css selector: input[type=text]], [n, e, t, f, l, i, x]])
-16:05:56.722 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (37a280a3c9974ef586a46bf60c34a8df)] -> css selector: input[type=text]], [n, e, t, f, l, i, x]]
-16:05:56.728 INFO - Executing: [find elements: By.cssSelector: button[name=btnG]])
-16:05:56.773 INFO - Done: [find elements: By.cssSelector: button[name=btnG]]
-16:05:56.778 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (37a280a3c9974ef586a46bf60c34a8df)] -> css selector: button[name=btnG]]])
-16:05:56.824 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (37a280a3c9974ef586a46bf60c34a8df)] -> css selector: button[name=btnG]]]
-16:05:57.330 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (37a280a3c9974ef586a46bf60c34a8df)] -> css selector: button[name=btnG]]])
-16:05:57.351 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (37a280a3c9974ef586a46bf60c34a8df)] -> css selector: button[name=btnG]]]
-16:05:57.857 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (37a280a3c9974ef586a46bf60c34a8df)] -> css selector: button[name=btnG]]])
-16:05:57.879 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (37a280a3c9974ef586a46bf60c34a8df)] -> css selector: button[name=btnG]]]
-16:05:58.385 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (37a280a3c9974ef586a46bf60c34a8df)] -> css selector: button[name=btnG]]])
-16:05:58.401 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (37a280a3c9974ef586a46bf60c34a8df)] -> css selector: button[name=btnG]]]
-16:05:58.907 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (37a280a3c9974ef586a46bf60c34a8df)] -> css selector: button[name=btnG]]])
-16:05:58.923 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (37a280a3c9974ef586a46bf60c34a8df)] -> css selector: button[name=btnG]]]
-16:05:59.430 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (37a280a3c9974ef586a46bf60c34a8df)] -> css selector: button[name=btnG]]])
-16:05:59.448 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (37a280a3c9974ef586a46bf60c34a8df)] -> css selector: button[name=btnG]]]
-16:05:59.954 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (37a280a3c9974ef586a46bf60c34a8df)] -> css selector: button[name=btnG]]])
-16:05:59.972 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (37a280a3c9974ef586a46bf60c34a8df)] -> css selector: button[name=btnG]]]
-16:05:59.977 INFO - Executing: [take screenshot])
-16:06:00.279 INFO - Done: [take screenshot]
-16:06:00.292 INFO - Executing: [delete session: bd0a5285-22af-4780-813b-97630dd9c6cb])
-16:06:01.535 INFO - Done: [delete session: bd0a5285-22af-4780-813b-97630dd9c6cb]
+10:28:31.467 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Samplegoogletest, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+10:28:31.473 INFO - Executing: [get: http://www.ebay.com])
+10:28:33.825 INFO - Done: [get: http://www.ebay.com]
+10:28:33.834 INFO - Executing: [find elements: By.cssSelector: body])
+10:28:33.889 INFO - Done: [find elements: By.cssSelector: body]
+10:28:33.897 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (955f443910eab45cd931ccd9064b59dd)] -> css selector: body]])
+10:28:33.939 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (955f443910eab45cd931ccd9064b59dd)] -> css selector: body]]
+10:28:33.946 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+10:28:34.000 INFO - Done: [find element: By.cssSelector: input[type=text]]
+10:28:34.006 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (955f443910eab45cd931ccd9064b59dd)] -> css selector: input[type=text]], [i, p, h, o, n, e, 6, ?]])
+10:28:35.929 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (955f443910eab45cd931ccd9064b59dd)] -> css selector: input[type=text]], [i, p, h, o, n, e, 6, ?]]
+10:28:36.958 INFO - Executing: [delete session: a766b507-a7a7-4279-a15e-74b4aa2d00e1])
+10:28:37.947 INFO - Done: [delete session: a766b507-a7a7-4279-a15e-74b4aa2d00e1]
